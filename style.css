@@ -1,0 +1,170 @@
+body{
+    display: flex;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+#dashboard{
+    width:280px;
+    min-height:800px;
+    border: solid 1px rgb(221, 218, 218);
+    box-shadow: 5px 10px 18px gray;
+    /* background-color: bisque; */
+}
+.dash_item .btn {
+    width: 90%;
+    margin-left:5% ;
+    margin-right: 5%;
+    margin-bottom:1%;
+}
+.dash{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+}
+.dash .btn{
+    background-color: rgb(241,241,243);
+     
+}
+.dash_list{
+    display: flex;
+    flex-direction: column;
+}
+.dash_list .btn{
+    background-color: white;
+    border:None;
+    font-family: Poppins,sans-serif;
+    color: gray;
+}
+.dash_list .btn:hover{
+    background-color: #787eff;
+    color: white;
+}
+.dash_list .li{ 
+    font-family: Poppins,sans-serif;
+}
+.space{
+    margin-left:8px ;
+    margin-right:8px ;
+}
+.img{
+    width:35px;
+    padding-right: 10px;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins, sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(120, 117, 117);
+}
+.badge{
+    color:white;
+}
+.head1{
+    font-family: Poppins,sans-serif;
+    color: gray;
+    font-size: 13px;
+    margin-left: 5%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+
+}
+.email .emailbtn{
+    font-family: Poppins,sans-serif;
+    color: rgb(93, 92, 92);
+    font-size: 17px;
+    width:90%;
+    height: 45px;
+    border-radius: 5px;
+    padding: 5px;
+    border:None;
+    margin-left: 3%;
+}
+.emailbtn:hover{
+    background-color: rgb(241,241,243);
+}
+#sales{
+    margin-top: 100px;
+    margin-left:50px;
+    width: 600px;
+    height: 170px;
+    border-radius: 10px;
+    border: 2px solid rgb(221, 218, 218);
+    padding: 25px;
+}
+.salehead{
+    display: flex;
+}
+.salehead p{
+    font-family: Poppins,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(119, 117, 117);
+    margin-right: auto;
+}
+.salehead i{
+    font-size: 20px;
+}
+.total{
+    font-family: Poppins,sans-serif;
+    color: gray;
+    font-size: 12px;
+}
+.totalcolor{
+    color:rgb(133, 207, 22);
+    font-size: 15px;
+    font-weight: 600;
+}
+.features{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.subfea{
+    display: flex;
+}
+.icon1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    background-color: #ecedff;
+}
+.icon2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    background-color: #fff6e5;
+}
+.icon3{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    background-color: #e5f8fe;
+}
+.thing{
+    padding-left: 12px;
+}
+.thing h5{
+    margin: 0;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    color: rgb(107, 105, 105);
+}
+.thing p{
+    margin: 0;
+    font-size: 12px;
+    font-family: Poppins,sans-serif;
+}
